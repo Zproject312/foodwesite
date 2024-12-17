@@ -29,7 +29,7 @@ const Footer = () => {
 
           {/* Footer Links */}
           <div className="grid p-3 text-lg grid-cols-1 md:grid-cols-4 mt-6">
-            <div className=" flex flex-col items-center ">
+            <div className=" flex flex-col lg:items-center ">
               <ul className="space-y-2 text-gray-700">
                 <li>
                   <Link href="/" className="hover:underline">
@@ -54,7 +54,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className=" flex flex-col items-center align-top ">
+            <div className=" flex flex-col lg:items-center align-top ">
               <ul className="space-y-2 text-gray-700">
                 <li>
                   <Link href="/" className="hover:underline">
@@ -74,7 +74,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className=" flex flex-col items-center ">
+            <div className=" flex flex-col lg:items-center ">
               <ul className="space-y-2 text-gray-700">
                 <li>
                   <Link href="/" className="hover:underline">
@@ -101,7 +101,7 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div className="mt-2 text-white text-md px-12 flex justify-between items-end">
+          <div className="mt-2 text-white text-md lg:px-12 flex justify-between flex-col lg:flex-row md:flex-row ">
             <p className="m-0">2024 KFC. All rights reserved</p>
             <div>
               <h1 className="text-red-700 font-semibold">Powered by</h1>
